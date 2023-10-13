@@ -1,0 +1,235 @@
+[
+    {
+        "id": 1,
+        "name": "DATA BACKUP & RECOVERY",
+        "title": "RAID Configuration and Data Restoration",
+        "category": "DATABACKUP",
+        "image": "https://amigos-themes.com/profix/assets/images/service/item-1.jpg",
+        "details": "We specialize in RAID data recovery and configuration. Whether you need to set up a RAID array for data redundancy or recover data from a failed RAID system, our experts can assist you.",
+        "reason": "RAID configurations are used to safeguard data by distributing it across multiple drives. When one drive fails, your data remains accessible. We ensure your data is secure and can be restored in case of failure.",
+        "pricing": [
+            {
+                "title": "RAID 1 Setup for Data Redundancy",
+                "price": 199
+            },
+            {
+                "title": "RAID 5 Data Recovery",
+                "price": 299
+            },
+            {
+                "title": "RAID 10 Configuration for Speed and Redundancy",
+                "price": 349
+            },
+            {
+                "title": "Emergency RAID Data Recovery",
+                "price": 499
+            },
+            {
+                "title": "RAID Consultation and Assessment",
+                "price": 59
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "LAPTOP & MAC UPGRADE",
+        "title": "SSD Upgrade, RAM Expansion, and OS Optimization",
+        "category": "LAPTOP",
+        "image": "https://amigos-themes.com/profix/assets/images/service/item-2.jpg",
+        "details": "Upgrade your laptop or Mac for improved performance. We offer SSD upgrades, RAM expansion, and OS optimization to make your device faster and more efficient.",
+        "reason": "A slow laptop or Mac can be frustrating. We're here to boost your device's capabilities and extend its lifespan with upgrades and optimizations.",
+        "pricing": [
+            {
+                "title": "256GB SSD Upgrade for MacBook Air",
+                "price": 129
+            },
+            {
+                "title": "8GB RAM Expansion for Windows Laptop",
+                "price": 79
+            },
+            {
+                "title": "macOS Optimization and Cleanup",
+                "price": 69
+            },
+            {
+                "title": "HDD to SSD Migration for Dell Laptop",
+                "price": 99
+            },
+            {
+                "title": "Custom Laptop Upgrade Consultation",
+                "price": 59
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "MOBILE REPAIR SERVICE",
+        "title": "Mobile Phone Repairs and Screen Replacement",
+        "category": "MOBILE",
+        "image": "https://amigos-themes.com/profix/assets/images/service/touch-screen-replacement.jpg",
+        "details": "We specialize in mobile phone repairs and screen replacement services. Whether you have a cracked screen, a faulty battery, or software issues, our expert technicians can fix your device",
+
+        "reason": "Mobile phones are an essential part of our daily lives. When your phone is not working correctly, it can be very inconvenient. We're here to ensure your mobile is back in perfect working condition.",
+        "pricing": [
+            {
+                "title": "iPhone Screen Replacement",
+                "price": 99
+            },
+            {
+                "title": "Samsung Battery Replacement",
+                "price": 49
+            },
+            {
+                "title": "Software Troubleshooting and Repair",
+                "price": 79
+            },
+            {
+                "title": "Water Damage Restoration",
+                "price": 69
+            },
+            {
+                "title": "Custom Mobile Repair Consultation",
+                "price": 59
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "COMPUTER SOFTWARE & VIRUS REMOVAL",
+        "title": "Software Installation and Malware Cleanup",
+        "category": "SOFTWARE",
+        "image": "https://windowsreport.com/wp-content/uploads/2022/04/Windows-Malicious-Software-Removal-Tool.jpg",
+        "details": "We provide software installation, updates, and virus removal services. Ensure your computer runs smoothly with the latest software and a malware-free environment.",
+        "reason": "Outdated software can lead to security vulnerabilities, and malware can cause data loss. Our services protect your computer and data from such threats.",
+        "pricing": [
+            {
+                "title": "Operating System Installation",
+                "price": 79
+            },
+            {
+                "title": "Virus and Malware Removal",
+                "price": 69
+            },
+            {
+                "title": "Software Updates and Optimization",
+                "price": 59
+            },
+            {
+                "title": "Custom Software and Security Consultation",
+                "price": 49
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "NETWORK SETUP & CONFIGURATION",
+        "title": "Professional Networking Services",
+        "category": "NETWORKING",
+        "image": "https://amigos-themes.com/profix/assets/images/service/item-6.jpg",
+        "details": "We offer comprehensive network setup and configuration services for homes and businesses. Our expert team can design, install, and optimize your network infrastructure.",
+        "reason": "A well-designed network is essential for efficient data communication and internet access. Our services ensure reliable connectivity and data security.",
+        "pricing": [
+            {
+                "title": "Home Wi-Fi Setup and Optimization",
+                "price": 99
+            },
+            {
+                "title": "Business Network Installation",
+                "price": 299
+            },
+            {
+                "title": "Network Security Audit",
+                "price": 149
+            },
+            {
+                "title": "Router Configuration and Firewall Setup",
+                "price": 79
+            },
+            {
+                "title": "Custom Networking Solution Consultation",
+                "price": 49
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "SECURITY SERVICES",
+        "title": "Home Security System Installation",
+        "category": "SECURITY",
+        "image": "https://media.istockphoto.com/id/1192103258/photo/close-up-of-surveillance-camera-installation-male-hand-holds-cctv-camera.jpg?s=612x612&w=0&k=20&c=zOBgLFkcX9Wddbo1gHEOg2HCKiWc05PyqJ9xBjM3MOE=",
+        "details": "Ensure the safety of your home with our professional security system installation. We offer services such as CCTV installation, alarm system setup, and smart doorbell installation.",
+        "reason": "Home security is vital for protecting your family and property. Our services provide peace of mind and a sense of security for your loved ones.",
+        "pricing": [
+            {
+                "title": "CCTV Camera Installation",
+                "price": 199
+            },
+            {
+                "title": "Alarm System Setup",
+                "price": 149
+            },
+            {
+                "title": "Smart Doorbell Installation",
+                "price": 79
+            },
+            {
+                "title": "Security System Consultation",
+                "price": 49
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "CPU UPGRADE",
+        "title": "Computer CPU Upgrade and Performance Enhancement",
+        "category": "COMPUTER",
+        "image": "https://amigos-themes.com/profix/assets/images/service/cpu-upgrade.jpg",
+        "details": "Boost your computer's performance with our CPU upgrade service. We can replace your existing CPU with a faster and more powerful one, providing a significant performance improvement for your computer.",
+        "reason": "If your computer is running slow or struggling to handle modern applications, a CPU upgrade can make a world of difference. It's a cost-effective way to extend the life of your computer.",
+        "pricing": [
+            {
+                "title": "Intel Core i7 CPU Upgrade",
+                "price": 199
+            },
+            {
+                "title": "AMD Ryzen CPU Replacement",
+                "price": 179
+            },
+            {
+                "title": "Custom CPU Upgrade Consultation",
+                "price": 49
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "GAME CONSOLE REPAIR",
+        "title": "Professional Game Console Repair Services",
+        "category": "GAMING",
+        "image": "https://amigos-themes.com/profix/assets/images/service/game-console.jpg",
+        "details": "We offer expert game console repair services for various gaming consoles, including PlayStation, Xbox, Nintendo, and more. Whether your console has hardware issues, software problems, or needs a cleaning, we can get it back in working order.",
+        "reason": "Game consoles are your gateway to entertainment. When they break, it's not just about gaming; it's about your entire entertainment experience. We ensure you can enjoy your games without interruption.",
+        "pricing": [
+            {
+                "title": "PlayStation 4 HDMI Port Repair",
+                "price": 89
+            },
+            {
+                "title": "Xbox One Disk Drive Replacement",
+                "price": 99
+            },
+            {
+                "title": "Nintendo Switch Joy-Con Repair",
+                "price": 69
+            },
+            {
+                "title": "Game Console Cleaning and Maintenance",
+                "price": 49
+            },
+            {
+                "title": "Custom Game Console Repair Consultation",
+                "price": 59
+            }
+        ]
+    }
+]
