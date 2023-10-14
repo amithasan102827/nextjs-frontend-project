@@ -1,5 +1,4 @@
-
-/* The hero image */
+/* banner */
 .heroImage {
     background-image: linear-gradient(to top, rgba(53, 53, 74, 0.5) 0%, rgba(53, 53, 74, 0.7) 75%, rgba(53, 53, 74, 0.9) 100%), url(../../public/home-banner.jpg);
     height: 700px;
@@ -19,6 +18,7 @@
 }
 
 
+/* pricingCard */
 .pricingCard {
     background: #fff;
     -webkit-box-shadow: 0 3px 10px #888;
@@ -30,21 +30,24 @@
     transition: all 0.2s linear 0s;
 }
 
-.pricingCard:hover{
+.pricingCard:hover {
     box-shadow: 0 7px 5px #888;
     z-index: 1;
 }
 
 
-.parallaxContainer{
+
+/* why-choose-us */
+.parallaxContainer {
     overflow: hidden;
     position: relative;
 }
 
-.parallaxBackground{
-    background-image:linear-gradient(to top, rgba(53, 53, 74, 0.75) 0%, rgba(53, 53, 74, 0.7) 75%, rgba(53, 53, 74, 0.9) 100%), url(../../public/choose-us/parallax-banner.jpg);
+.parallaxBackground {
+    background-image: linear-gradient(to top, rgba(53, 53, 74, 0.75) 0%, rgba(53, 53, 74, 0.7) 75%, rgba(53, 53, 74, 0.9) 100%), url(../../public/choose-us/parallax-banner.jpg);
     background-size: cover;
-    background-attachment: fixed; /* This is the key property for parallax */
+    background-attachment: fixed;
+    /* This is the key property for parallax */
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -64,8 +67,63 @@
 }
 
 
+/* info-section */
+.infoParallaxContainer {
+    overflow: hidden;
+    position: relative;
+}
 
-@media (max-width: 34em){
+.infoParallaxBackground {
+    background-image: linear-gradient(to top, rgba(6, 21, 66, 0.75) 90%, rgba(4, 25, 60, 0.75) 95%, rgba(4, 31, 85, 0.75) 90%), url(../../public/page-info-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* This is the key property for parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100% !important;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.infoContent {
+    position: relative;
+    z-index: 1;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+
+    /* WHAT PEOPLE SAY */
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+@media (max-width: 34em) {
     .heroImage {
         background-image: linear-gradient(to top, rgba(53, 53, 74, 0.5) 0%, rgba(53, 53, 74, 0.7) 75%, rgba(53, 53, 74, 0.9) 100%), url(../../public/home-banner.jpg);
         height: 270px;

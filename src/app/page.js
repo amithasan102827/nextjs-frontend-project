@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react'
 import styles from './page.module.css'
 import Image from 'next/image'
@@ -7,6 +9,17 @@ import priceImg3 from '../../public/price/notebook-dark.png';
 import priceImg4 from '../../public/price/printer-dark.png';
 import services from '../../public/data.json';
 
+// import Swiper styles
+import { SwiperSlide, Swiper } from 'swiper/react';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 const Homepage = () => {
 
@@ -146,7 +159,6 @@ const Homepage = () => {
 
 
       {/* WHY CHOOSE US? */}
-
       <section className={styles.parallaxContainer}>
         <div className={styles.parallaxBackground}></div>
         <div className={`${styles['content']} container`}>
@@ -199,10 +211,10 @@ const Homepage = () => {
           <div className="row g-4 col-md-11 mx-auto">
             {
               services.slice(0, 6).map(service => (
-                <div className="col-lg-4 col-md-6 mb-2">
+                <div key={service.id} className="col-lg-4 col-md-6 mb-2">
                   <div className="card mx-auto rounded-0 border-0 h-100" >
                     <Image
-                    className='img-fluid'
+                      className='img-fluid'
                       src={service.image}
                       width={371}
                       height={200}
@@ -217,6 +229,112 @@ const Homepage = () => {
                 </div>
               ))
             }
+          </div>
+          <button className='btn btn-info text-white rounded-0 d-block mx-auto mt-4'>VIEW ALL SERVICES</button>
+        </div>
+      </section>
+
+
+      {/* info */}
+      <section className={styles.infoParallaxContainer}>
+        <div className={styles.infoParallaxBackground}></div>
+        <div className={`${styles['infoContent']} container`}>
+          <div className='py-5 text-white col-md-10 mx-auto'>
+
+            <div className='d-flex justify-content-between align-items-center flex-wrap'>
+
+              <div className='d-flex flex-column align-items-center justify-content-center py-4'>
+                <i className="bi bi-truck text-white" style={{ fontSize: '40px' }}></i>
+                <div className='mt-1 text-center'>
+                  <h1 className='m-0 fw-semibold text-info mb-1'>3770</h1>
+                  <h6 className='fw-semibold'>Happy Client</h6>
+                </div>
+              </div>
+              <div className='d-flex flex-column align-items-center justify-content-center py-4'>
+                <i className="bi bi-truck text-white" style={{ fontSize: '40px' }}></i>
+                <div className='mt-1 text-center'>
+                  <h1 className='m-0 fw-semibold text-info mb-1'>2790</h1>
+                  <h6 className='fw-semibold'>COMPUTER REPAIRS</h6>
+                </div>
+              </div>
+              <div className='d-flex flex-column align-items-center justify-content-center py-4'>
+                <i className="bi bi-truck text-white" style={{ fontSize: '40px' }}></i>
+                <div className='mt-1 text-center'>
+                  <h1 className='m-0 fw-semibold text-info mb-1'>1550</h1>
+                  <h6 className='fw-semibold'>MOBILE REPAIRS</h6>
+                </div>
+              </div>
+              <div className='d-flex flex-column align-items-center justify-content-center py-4'>
+                <i className="bi bi-truck text-white" style={{ fontSize: '40px' }}></i>
+                <div className='mt-1 text-center'>
+                  <h1 className='fw-semibold text-info mb-1'>12</h1>
+                  <h6 className='fw-semibold'>YEARS OF EXPERIENCE</h6>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      {/* WHAT PEOPLE SAY */}
+      <section className='py-5' style={{ backgroundColor: "#F7F7F7" }}>
+        <div className="container">
+          <div className='text-center my-5'>
+            <h1>WHAT PEOPLE SAY</h1>
+            <p>Real customers reviews</p>
+          </div>
+          <div className="row col-md-11 mx-auto">
+            <Swiper
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false,
+              }}
+              speed={1500}
+              loop={true}
+              // navigation={true}
+              pagination={{
+                clickable: true,
+              }}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 0,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 10,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  spaceBetween: 20,
+                },
+              }}
+              modules={[Autoplay, Pagination, Navigation]}
+              className="mySwiper"
+            >
+              {Array.from({ length: 10 }).map((_, idx) => (
+                <SwiperSlide key={idx}>
+                  <div className="">
+                    <div className="card py-4 px-3 rounded-0 h-100">
+                      <div className="card-body">
+                        <h5 className="card-text fw-light">With supporting text below as a natural lead-in to additional content.With supporting text below as a natural lead-in to additional</h5>
+                        <div className='d-flex align-items-center mt-5'>
+                          <i className="bi bi-person-circle" style={{ fontSize: "60px" }}></i>
+                          <div className='px-4 mt-3'>
+                            <h5 className='m-0'>Michale Jojn</h5>
+                            <p>Co-Founder, InfoLabs</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))
+              }
+            </Swiper>
           </div>
         </div>
       </section>
