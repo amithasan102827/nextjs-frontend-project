@@ -20,6 +20,7 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import Link from 'next/link';
 
 const Homepage = () => {
 
@@ -223,14 +224,16 @@ const Homepage = () => {
                     <div className="card-body">
                       <h5 className="card-title">{service.name}</h5>
                       <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <button type="button" className="btn btn-outline-primary rounded-0 float-end">READ MORE</button>
+                      <button type="button" className="btn btn-outline-primary rounded-0 float-end">
+                        <Link className='text-decoration-none text-dark' href={`/services/${service.id}`}>READ MORE</Link>
+                      </button>
                     </div>
                   </div>
                 </div>
               ))
             }
           </div>
-          <button className='btn btn-info text-white rounded-0 d-block mx-auto mt-4'>VIEW ALL SERVICES</button>
+          <button className='btn btn-info text-white rounded-0 d-block mx-auto mt-4'><Link className="nav-link" href="/services">VIEW ALL SERVICES</Link></button>
         </div>
       </section>
 
