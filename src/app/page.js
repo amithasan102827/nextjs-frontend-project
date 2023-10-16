@@ -30,7 +30,7 @@ const Homepage = () => {
       {/* banner */}
       <section className={styles.heroImage}>
         <div className={styles.heroText}>
-          <h1>I am John Doe</h1>
+          <h1>I am amit hasan</h1>
           <p>And I'm a Photographer</p>
           <button>Hire me</button>
         </div>
