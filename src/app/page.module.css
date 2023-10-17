@@ -9,12 +9,15 @@
 }
 
 .heroText {
-    text-align: center;
+    text-align: start;
     position: absolute;
+    width: 30%;
     top: 50%;
-    left: 50%;
+    left: 22%;
     transform: translate(-50%, -50%);
     color: white;
+    background-color: #FFFFFF;
+    padding: 40px 30px;
 }
 
 
@@ -122,14 +125,57 @@
 }
 
 
+/* project-page */
+.projectCardContainer {
+    position: relative;
+    /* max-width: 300px; */
+    overflow: hidden;
+}
+
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.projectCardContainer:hover .overlay {
+    opacity: 1;
+}
+
 
 @media (max-width: 34em) {
+
+    .header{
+        position: fixed !important;
+    }
     .heroImage {
         background-image: linear-gradient(to top, rgba(53, 53, 74, 0.5) 0%, rgba(53, 53, 74, 0.7) 75%, rgba(53, 53, 74, 0.9) 100%), url(../../public/home-banner.jpg);
-        height: 270px;
+        height: 450px;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         position: relative;
+    }
+
+    .heroText {
+        text-align: start;
+        position: absolute;
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        background-color: #FFFFFF;
+        padding: 45px 25px;
     }
 }

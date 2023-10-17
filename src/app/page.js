@@ -30,9 +30,8 @@ const Homepage = () => {
       {/* banner */}
       <section className={styles.heroImage}>
         <div className={styles.heroText}>
-          <h1>I am amit hasan</h1>
-          <p>And I'm a Photographer</p>
-          <button>Hire me</button>
+          <h1 className='text-info fw-semibold'>Professional <br /> Device Repairs</h1>
+          <p className='text-dark'>Accidents happen, and it’s our job to fix them when it comes to damaging your mobile device.</p>
         </div>
       </section>
 
@@ -163,10 +162,10 @@ const Homepage = () => {
       <section className={styles.parallaxContainer}>
         <div className={styles.parallaxBackground}></div>
         <div className={`${styles['content']} container`}>
-          <div className='py-5 my-md-5 text-white col-md-6'>
+          <div className='py-5 my-md-5 text-white col-lg-10 mx-auto'>
             <h2>WHY CHOOSE US?</h2>
 
-            <div className='d-flex justify-content-between align-items-center flex-wrap'>
+            <div className=' d-flex justify-content-between align-items-center flex-wrap'>
               <div className='d-flex align-items-center justify-content-around py-4'>
                 <i className="bi bi-truck text-info" style={{ fontSize: '60px' }}></i>
                 <div className='mt-4'>
