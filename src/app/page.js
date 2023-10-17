@@ -247,28 +247,28 @@ const Homepage = () => {
             <div className='d-flex justify-content-between align-items-center flex-wrap'>
 
               <div className='d-flex flex-column align-items-center justify-content-center py-4'>
-                <i className="bi bi-truck text-white" style={{ fontSize: '40px' }}></i>
+                <i className="bi bi-people text-white" style={{ fontSize: '40px' }}></i>
                 <div className='mt-1 text-center'>
                   <h1 className='m-0 fw-semibold text-info mb-1'>3770</h1>
                   <h6 className='fw-semibold'>Happy Client</h6>
                 </div>
               </div>
               <div className='d-flex flex-column align-items-center justify-content-center py-4'>
-                <i className="bi bi-truck text-white" style={{ fontSize: '40px' }}></i>
+                <i className="bi bi-laptop text-white" style={{ fontSize: '40px' }}></i>
                 <div className='mt-1 text-center'>
                   <h1 className='m-0 fw-semibold text-info mb-1'>2790</h1>
                   <h6 className='fw-semibold'>COMPUTER REPAIRS</h6>
                 </div>
               </div>
               <div className='d-flex flex-column align-items-center justify-content-center py-4'>
-                <i className="bi bi-truck text-white" style={{ fontSize: '40px' }}></i>
+                <i className="bi bi-phone text-white" style={{ fontSize: '40px' }}></i>
                 <div className='mt-1 text-center'>
                   <h1 className='m-0 fw-semibold text-info mb-1'>1550</h1>
                   <h6 className='fw-semibold'>MOBILE REPAIRS</h6>
                 </div>
               </div>
               <div className='d-flex flex-column align-items-center justify-content-center py-4'>
-                <i className="bi bi-truck text-white" style={{ fontSize: '40px' }}></i>
+                <i className="bi bi-calendar-check text-white" style={{ fontSize: '35px' }}></i>
                 <div className='mt-1 text-center'>
                   <h1 className='fw-semibold text-info mb-1'>12</h1>
                   <h6 className='fw-semibold'>YEARS OF EXPERIENCE</h6>

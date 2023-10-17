@@ -1,0 +1,135 @@
+[
+    {
+        "id": 1,
+        "client": "CLIENT J",
+        "date": "01 - 14 - 2020",
+        "location": "SWITZERLAND",
+        "brand": "LOGITECH",
+        "category": "peripherals",
+        "cost": "24 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/item-1.jpg"
+    },
+    {
+        "id": 2,
+        "client": "CLIENT K",
+        "date": "03 - 05 - 2019",
+        "location": "GERMANY",
+        "brand": "RAZER",
+        "category": "gaming",
+        "cost": "35 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/item-2.jpg"
+    },
+    {
+        
+        "id": 3,
+        "client": "CLIENT L",
+        "date": "12 - 12 - 2018",
+        "location": "FRANCE",
+        "brand": "MICROSOFT",
+        "category": "software",
+        "cost": "18 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/item-3.jpg"
+    },
+    {
+        "id": 4,
+        "client": "CLIENT M",
+        "date": "05 - 20 - 2020",
+        "location": "ITALY",
+        "brand": "ASUS",
+        "category": "laptops",
+        "cost": "30 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/item-4.jpg"
+    },
+    {
+        "id": 5,
+        "client": "CLIENT N",
+        "date": "09 - 08 - 2017",
+        "location": "SPAIN",
+        "brand": "APPLE",
+        "category": "electronics",
+        "cost": "40 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/motherboard-3.jpg"
+    },
+    {
+        "id": 6,
+        "client": "CLIENT O",
+        "date": "04 - 15 - 2022",
+        "location": "USA",
+        "brand": "DELL",
+        "category": "computers",
+        "cost": "22 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/item-6.jpg"
+    },
+    {
+        "id": 7,
+        "client": "CLIENT P",
+        "date": "06 - 11 - 2019",
+        "location": "UK",
+        "brand": "LENOVO",
+        "category": "computers",
+        "cost": "32 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/measurements.jpg"
+    },
+    {
+        "id": 8,
+        "client": "CLIENT Q",
+        "date": "11 - 19 - 2021",
+        "location": "CANADA",
+        "brand": "SAMSUNG",
+        "category": "appliances",
+        "cost": "12 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/motherboard-3.jpg"
+    },
+    {
+        "id": 9,
+        "client": "CLIENT R",
+        "date": "07 - 03 - 2016",
+        "location": "AUSTRALIA",
+        "brand": "SONY",
+        "category": "electronics",
+        "cost": "28 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/service.jpg"
+    },
+    {
+        "id": 10,
+        "client": "CLIENT S",
+        "date": "08 - 25 - 2020",
+        "location": "BELGIUM",
+        "brand": "ACER",
+        "category": "computers",
+        "cost": "15 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/cpu-upgrade.jpg"
+    },
+    {
+        "id": 11,
+        "client": "CLIENT T",
+        "date": "02 - 07 - 2018",
+        "location": "SWEDEN",
+        "brand": "HP",
+        "category": "office supplies",
+        "cost": "20 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/touch-screen-replacement.jpg"
+    },
+    {
+        "id": 12,
+        "client": "CLIENT U",
+        "date": "10 - 30 - 2021",
+        "location": "DENMARK",
+        "brand": "EPSON",
+        "category": "printers",
+        "cost": "24 $",
+        "details": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. In ratione excepturi perferendis consectetur sequi possimus numquam inventore fuga, nihil suscipit dolore sint deleniti eligendi quisquam nobis iure est corporis? Aperiam doloribus laboriosam odit quis quibusdam dignissimos dolore delectus. Ab amet similique magnam repellat culpa excepturi totam sequi omnis neque repellendus.",
+        "image": "https://amigos-themes.com/profix/assets/images/service/game-console.jpg"
+    }
+]
